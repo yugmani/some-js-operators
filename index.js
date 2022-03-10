@@ -153,3 +153,14 @@ console.log(r == s); //true
 console.log(r === s); //false
 
 // From JavaScript’s standpoint, this result is quite normal. An equality check converts values using the numeric conversion (hence "0" becomes 0), while the explicit Boolean conversion uses another set of rules.
+
+// Tasks from https://javascript.info/comparison
+// Comparisons
+// What will be the result for these expressions?
+console.log(5>4);   //true;
+console.log('apple' > 'pineapple'); false
+console.log('2' > '12');  // true (why?)
+console.log(undefined == null);   //true;
+console.log(undefined === null);    //false
+console.log(null == '\n0\n'); //false
+console.log(null === +'\n0\n'); //false (different types)
